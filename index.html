@@ -144,6 +144,23 @@
   audio { width: 250px; height: 36px; vertical-align: middle; }
   .text-zh { font-size: .95rem; }
 
+  .praat-row td { padding: 6px 15px 14px; border-top: none; background: #fafbff; }
+  .praat-img {
+    width: 100%;
+    max-width: 900px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: transform .2s;
+  }
+  .praat-img:hover { transform: scale(1.02); box-shadow: 0 4px 16px rgba(0,0,0,.12); }
+  .praat-caption {
+    font-size: .8rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+    font-style: italic;
+  }
+
   .ann-block {
     background: #f4f6ff;
     border-left: 4px solid var(--accent);
@@ -295,15 +312,18 @@
         </tr>
       </thead>
       <tbody>
-        <!-- Pair 1: literal (subA) -->
+        <!-- ── Pair 1: literal (subA) ── -->
         <tr>
-          <td rowspan="2"><strong>1</strong></td>
+          <td rowspan="4"><strong>1</strong></td>
           <td>Q</td>
           <td><span class="label-tag tag-lit">Literal</span></td>
           <td class="text-zh">现在下课了吗？</td>
           <td>Is class over?</td>
           <td><audio controls preload="none"><source src="Q_subA001_29_lit.wav" type="audio/wav"></audio></td>
           <td>&mdash;</td>
+        </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_Q1_lit.png" alt="Praat annotation: Q1 现在下课了吗 (literal)"><div class="praat-caption">Q waveform + spectrogram + TextGrid alignment (character, syllable, stress, boundary)</div></td>
         </tr>
         <tr>
           <td>R</td>
@@ -317,16 +337,22 @@
             <span class="label-tag tag-sr">W</span>
           </td>
         </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_R1_lit.png" alt="Praat annotation: R1 当然没有下课 (F→W→W)"><div class="praat-caption">R waveform + spectrogram + TextGrid alignment (word, syllable, phone, utterance, intention: F → W → W)</div></td>
+        </tr>
 
-        <!-- Pair 2: deep (subA) -->
+        <!-- ── Pair 2: deep (subA) ── -->
         <tr class="pair-divider">
-          <td rowspan="2"><strong>2</strong></td>
+          <td rowspan="4"><strong>2</strong></td>
           <td>Q</td>
           <td><span class="label-tag tag-deep">Deep</span></td>
           <td class="text-zh">他会跳舞吗？</td>
           <td>Can he dance?</td>
           <td><audio controls preload="none"><source src="Q_subA001_66_deep.wav" type="audio/wav"></audio></td>
           <td>&mdash;</td>
+        </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_Q2_deep.png" alt="Praat annotation: Q2 他会跳舞吗 (deep)"><div class="praat-caption">Q waveform + spectrogram + TextGrid alignment (character, syllable, stress, boundary)</div></td>
         </tr>
         <tr>
           <td>R</td>
@@ -339,16 +365,22 @@
             <span class="label-tag tag-sr">V</span>
           </td>
         </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_R2_deep.png" alt="Praat annotation: R2 他可能会跳舞吧 (A→V)"><div class="praat-caption">R waveform + spectrogram + TextGrid alignment (word, syllable, phone, utterance, intention: A → V)</div></td>
+        </tr>
 
-        <!-- Pair 3: deep (subB) — same question text as Pair 1 -->
+        <!-- ── Pair 3: deep (subB) — same question text as Pair 1 ── -->
         <tr class="pair-divider">
-          <td rowspan="2"><strong>3</strong></td>
+          <td rowspan="4"><strong>3</strong></td>
           <td>Q</td>
           <td><span class="label-tag tag-deep">Deep</span></td>
           <td class="text-zh">现在下课了吗？</td>
           <td>Is class over? <em>(rhetorical)</em></td>
           <td><audio controls preload="none"><source src="Q_subB001_29_deep.wav" type="audio/wav"></audio></td>
           <td>&mdash;</td>
+        </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_Q3_deep.png" alt="Praat annotation: Q3 现在下课了吗 (deep, rhetorical)"><div class="praat-caption">Q waveform + spectrogram + TextGrid alignment &mdash; compare with Pair 1 Q: same text, different prosody</div></td>
         </tr>
         <tr>
           <td>R</td>
@@ -361,16 +393,22 @@
             <span class="label-tag tag-sr">D</span>
           </td>
         </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_R3_deep.png" alt="Praat annotation: R3 马上就下课了 (W+D)"><div class="praat-caption">R waveform + spectrogram + TextGrid alignment (word, syllable, phone, utterance, intention: W + D)</div></td>
+        </tr>
 
-        <!-- Pair 4: deep (subC) -->
+        <!-- ── Pair 4: deep (subC) ── -->
         <tr class="pair-divider">
-          <td rowspan="2"><strong>4</strong></td>
+          <td rowspan="4"><strong>4</strong></td>
           <td>Q</td>
           <td><span class="label-tag tag-deep">Deep</span></td>
           <td class="text-zh">他跟这件事有关系吗？</td>
           <td>Does he have anything to do with this?</td>
           <td><audio controls preload="none"><source src="Q_subC001_28_deep.wav" type="audio/wav"></audio></td>
           <td>&mdash;</td>
+        </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_Q4_deep.png" alt="Praat annotation: Q4 他跟这件事有关系吗 (deep)"><div class="praat-caption">Q waveform + spectrogram + TextGrid alignment (character, syllable, stress, boundary)</div></td>
         </tr>
         <tr>
           <td>R</td>
@@ -382,6 +420,9 @@
             <span class="label-tag tag-sr">F</span>
             <span class="label-tag tag-sr">R</span>
           </td>
+        </tr>
+        <tr class="praat-row">
+          <td colspan="6"><img class="praat-img" src="praat_R4_deep.png" alt="Praat annotation: R4 他跟这件事儿没关系啊 (F+R)"><div class="praat-caption">R waveform + spectrogram + TextGrid alignment (word, syllable, phone, utterance, intention: F + R)</div></td>
         </tr>
       </tbody>
     </table>
