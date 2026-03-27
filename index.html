@@ -388,64 +388,21 @@
   </div>
 </section>
 
-<!-- ════════════════ ANNOTATION ════════════════ -->
+<!-- ════════════════ SR TAXONOMY ════════════════ -->
 <section>
-  <h2>Annotation Highlights</h2>
+  <h2>Response Intention Annotation System</h2>
   <p class="desc">
-    Each sample ships with a multi-tier Praat TextGrid and a PitchTier file.
-    A single response utterance may contain multiple prosodic phrases,
-    and each phrase is independently labeled with a speech act from the
-    14-class SR taxonomy (e.g., <strong>F</strong>&nbsp;=&nbsp;Factual,
-    <strong>W</strong>&nbsp;=&nbsp;Wisdom/advice,
-    <strong>A</strong>&nbsp;=&nbsp;Against,
-    <strong>D</strong>&nbsp;=&nbsp;Disagreement,
-    <strong>R</strong>&nbsp;=&nbsp;Resonance/agreement,
-    <strong>V</strong>&nbsp;=&nbsp;Vague).
-    The arrows below indicate temporal order within the response.
+    The SR task uses a 14-class taxonomy organized into five meta-categories.
+    Each prosodic phrase in a response utterance is independently labeled with one of these intent labels.
+    The SR labels shown in the audio samples above (e.g., F, W, A, V, D, R) correspond to this taxonomy.
   </p>
 
-  <h3 style="margin-top:18px; font-size:1rem;">Pair 1 &mdash; Literal: &ldquo;Is class over?&rdquo;</h3>
-  <div class="ann-block">
-    <strong>Q prosody:</strong> Calm, neutral rising intonation on sentence-final particle &ldquo;吗&rdquo; &mdash; genuine question.<br>
-    <strong>R phrases:</strong>
-    &ldquo;当然没有下课&rdquo; <em>(Of course not)</em> &rarr;
-    &ldquo;不要说话&rdquo; <em>(Stop talking)</em> &rarr;
-    &ldquo;好好听课&rdquo; <em>(Pay attention)</em><br>
-    <strong>SR:</strong>
-    <span class="label-tag tag-sr">F</span> Factual &rarr;
-    <span class="label-tag tag-sr">W</span> Wisdom &rarr;
-    <span class="label-tag tag-sr">W</span> Wisdom
-  </div>
-
-  <h3 style="margin-top:18px; font-size:1rem;">Pair 2 &mdash; Deep: &ldquo;Can he dance?&rdquo;</h3>
-  <div class="ann-block">
-    <strong>Q prosody:</strong> Skeptical tone with emphasis on &ldquo;会&rdquo; (can) &mdash; implies doubt about the person&rsquo;s ability.<br>
-    <strong>R phrases:</strong>
-    &ldquo;他可能会跳舞吧&rdquo; <em>(Maybe he can)</em> &rarr;
-    &ldquo;但是重在参与&rdquo; <em>(But what matters is participation)</em><br>
-    <strong>SR:</strong>
-    <span class="label-tag tag-sr">A</span> Against &rarr;
-    <span class="label-tag tag-sr">V</span> Vague
-  </div>
-
-  <h3 style="margin-top:18px; font-size:1rem;">Pair 3 &mdash; Deep: &ldquo;Is class over?&rdquo; <em>(same text as Pair 1, different prosody)</em></h3>
-  <div class="ann-block">
-    <strong>Q prosody:</strong> Sharper, impatient falling contour &mdash; the speaker knows the answer is &ldquo;no&rdquo; and is expressing dissatisfaction. Compare with the calm rising tone of Pair&nbsp;1.<br>
-    <strong>R phrases:</strong>
-    &ldquo;马上就下课了&rdquo; <em>(It&rsquo;ll be over soon)</em><br>
-    <strong>SR:</strong>
-    <span class="label-tag tag-sr">W</span> Wisdom +
-    <span class="label-tag tag-sr">D</span> Disagreement
-  </div>
-
-  <h3 style="margin-top:18px; font-size:1rem;">Pair 4 &mdash; Deep: &ldquo;Does he have anything to do with this?&rdquo;</h3>
-  <div class="ann-block">
-    <strong>Q prosody:</strong> Rhetorical tone implying the answer is obviously &ldquo;no&rdquo; &mdash; the speaker uses a dismissive falling contour.<br>
-    <strong>R phrases:</strong>
-    &ldquo;他跟这件事儿没关系啊&rdquo; <em>(He has nothing to do with it)</em><br>
-    <strong>SR:</strong>
-    <span class="label-tag tag-sr">F</span> Factual +
-    <span class="label-tag tag-sr">R</span> Resonance
+  <div class="fig-card">
+    <img src="sr_taxonomy.png" alt="Response Intention Annotation System — 14-class SR taxonomy">
+    <div class="fig-caption">
+      Table: The 14-class Response Intention Annotation System, covering five meta-categories:
+      Literal/Factual, Attitude, Emotion, Commitment, and Extension.
+    </div>
   </div>
 </section>
 
