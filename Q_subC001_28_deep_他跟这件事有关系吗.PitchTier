@@ -1,0 +1,402 @@
+File type = "ooTextFile"
+Object class = "PitchTier"
+
+xmin = 0 
+xmax = 3.2 
+points: size = 132 
+points [1]:
+    number = 1.18 
+    value = 351.6969884035856 
+points [2]:
+    number = 1.19 
+    value = 345.32340173046424 
+points [3]:
+    number = 1.2 
+    value = 342.87109713480703 
+points [4]:
+    number = 1.21 
+    value = 344.02254303124084 
+points [5]:
+    number = 1.22 
+    value = 346.05014451578677 
+points [6]:
+    number = 1.23 
+    value = 347.93508900832023 
+points [7]:
+    number = 1.24 
+    value = 352.25862844209166 
+points [8]:
+    number = 1.25 
+    value = 354.74976381010487 
+points [9]:
+    number = 1.26 
+    value = 357.4266906384172 
+points [10]:
+    number = 1.27 
+    value = 360.9533811430871 
+points [11]:
+    number = 1.28 
+    value = 360.0510077604002 
+points [12]:
+    number = 1.29 
+    value = 362.202820871609 
+points [13]:
+    number = 1.3 
+    value = 360.40160066885795 
+points [14]:
+    number = 1.31 
+    value = 360.67095947520517 
+points [15]:
+    number = 1.32 
+    value = 363.2568279048772 
+points [16]:
+    number = 1.33 
+    value = 353.85595084682154 
+points [17]:
+    number = 1.34 
+    value = 345.7563467700196 
+points [18]:
+    number = 1.35 
+    value = 378.4168924870357 
+points [19]:
+    number = 1.36 
+    value = 371.5809917277683 
+points [20]:
+    number = 1.37 
+    value = 357.07831902579403 
+points [21]:
+    number = 1.3800000000000001 
+    value = 358.17477746887516 
+points [22]:
+    number = 1.3900000000000001 
+    value = 360.0131274975921 
+points [23]:
+    number = 1.4000000000000001 
+    value = 362.0154240366261 
+points [24]:
+    number = 1.4100000000000001 
+    value = 361.8531796274627 
+points [25]:
+    number = 1.4200000000000002 
+    value = 360.1603670114467 
+points [26]:
+    number = 1.43 
+    value = 360.13722499174827 
+points [27]:
+    number = 1.44 
+    value = 356.4906839095019 
+points [28]:
+    number = 1.45 
+    value = 363.5478606463759 
+points [29]:
+    number = 1.46 
+    value = 371.15840583880623 
+points [30]:
+    number = 1.47 
+    value = 368.476027598426 
+points [31]:
+    number = 1.48 
+    value = 362.12563524271684 
+points [32]:
+    number = 1.49 
+    value = 359.42131586963166 
+points [33]:
+    number = 1.5 
+    value = 344.35651752204444 
+points [34]:
+    number = 1.51 
+    value = 340.0954190102032 
+points [35]:
+    number = 1.55 
+    value = 374.3172683490155 
+points [36]:
+    number = 1.56 
+    value = 368.8007207425598 
+points [37]:
+    number = 1.57 
+    value = 356.08234235431166 
+points [38]:
+    number = 1.58 
+    value = 350.0060871961155 
+points [39]:
+    number = 1.59 
+    value = 340.57392810640255 
+points [40]:
+    number = 1.6 
+    value = 336.6031913466761 
+points [41]:
+    number = 1.61 
+    value = 340.14604449278795 
+points [42]:
+    number = 1.62 
+    value = 323.0279677864039 
+points [43]:
+    number = 1.6300000000000001 
+    value = 325.41935138919047 
+points [44]:
+    number = 1.6600000000000001 
+    value = 334.7867534057356 
+points [45]:
+    number = 1.6700000000000002 
+    value = 332.23873807805217 
+points [46]:
+    number = 1.6800000000000002 
+    value = 330.1874366912575 
+points [47]:
+    number = 1.69 
+    value = 326.0135343583703 
+points [48]:
+    number = 1.7 
+    value = 319.71687404914906 
+points [49]:
+    number = 1.71 
+    value = 314.1946869356314 
+points [50]:
+    number = 1.72 
+    value = 309.8691043351033 
+points [51]:
+    number = 1.73 
+    value = 309.12216065438076 
+points [52]:
+    number = 1.74 
+    value = 305.89399180646944 
+points [53]:
+    number = 1.75 
+    value = 302.51531616086487 
+points [54]:
+    number = 1.76 
+    value = 300.18100580231675 
+points [55]:
+    number = 1.77 
+    value = 299.6038197396366 
+points [56]:
+    number = 1.78 
+    value = 300.1096284017956 
+points [57]:
+    number = 1.79 
+    value = 294.3356288543028 
+points [58]:
+    number = 1.8 
+    value = 289.95285029692803 
+points [59]:
+    number = 1.81 
+    value = 291.6481479974856 
+points [60]:
+    number = 1.9200000000000002 
+    value = 343.59165138672404 
+points [61]:
+    number = 1.9300000000000002 
+    value = 327.4013010909956 
+points [62]:
+    number = 1.94 
+    value = 316.03957644209106 
+points [63]:
+    number = 1.95 
+    value = 307.6159247667566 
+points [64]:
+    number = 1.96 
+    value = 297.93489345277004 
+points [65]:
+    number = 1.97 
+    value = 289.0927127935849 
+points [66]:
+    number = 1.98 
+    value = 281.70050347639153 
+points [67]:
+    number = 1.99 
+    value = 272.9983138020611 
+points [68]:
+    number = 2 
+    value = 261.2563614873908 
+points [69]:
+    number = 2.0100000000000002 
+    value = 251.68469064470403 
+points [70]:
+    number = 2.02 
+    value = 241.0592779691262 
+points [71]:
+    number = 2.0300000000000002 
+    value = 233.15105885915878 
+points [72]:
+    number = 2.04 
+    value = 227.11936070922195 
+points [73]:
+    number = 2.0500000000000003 
+    value = 216.51022660638677 
+points [74]:
+    number = 2.06 
+    value = 206.56356419272603 
+points [75]:
+    number = 2.07 
+    value = 198.98693963587473 
+points [76]:
+    number = 2.08 
+    value = 201.39078689715802 
+points [77]:
+    number = 2.09 
+    value = 219.45417859383528 
+points [78]:
+    number = 2.12 
+    value = 96.94330733593564 
+points [79]:
+    number = 2.13 
+    value = 77.93380874122299 
+points [80]:
+    number = 2.14 
+    value = 77.24315409727666 
+points [81]:
+    number = 2.15 
+    value = 80.41754799080987 
+points [82]:
+    number = 2.16 
+    value = 82.4532005396843 
+points [83]:
+    number = 2.17 
+    value = 82.66464566971324 
+points [84]:
+    number = 2.23 
+    value = 237.06283076930666 
+points [85]:
+    number = 2.24 
+    value = 229.75011896313453 
+points [86]:
+    number = 2.25 
+    value = 226.17937846320407 
+points [87]:
+    number = 2.2600000000000002 
+    value = 221.6038085243506 
+points [88]:
+    number = 2.27 
+    value = 229.00692809766412 
+points [89]:
+    number = 2.2800000000000002 
+    value = 230.3352237586845 
+points [90]:
+    number = 2.29 
+    value = 234.3509771219927 
+points [91]:
+    number = 2.3000000000000003 
+    value = 239.0670254996284 
+points [92]:
+    number = 2.31 
+    value = 244.78589406471917 
+points [93]:
+    number = 2.3200000000000003 
+    value = 252.3688479622084 
+points [94]:
+    number = 2.33 
+    value = 260.96509000245345 
+points [95]:
+    number = 2.34 
+    value = 266.16361182188695 
+points [96]:
+    number = 2.35 
+    value = 271.099828296705 
+points [97]:
+    number = 2.36 
+    value = 278.51232947160855 
+points [98]:
+    number = 2.37 
+    value = 284.15201137232566 
+points [99]:
+    number = 2.38 
+    value = 289.9804699929799 
+points [100]:
+    number = 2.39 
+    value = 297.1943986594227 
+points [101]:
+    number = 2.4 
+    value = 302.9317375533314 
+points [102]:
+    number = 2.41 
+    value = 309.69409125674684 
+points [103]:
+    number = 2.42 
+    value = 314.2329361611793 
+points [104]:
+    number = 2.43 
+    value = 304.82642507542573 
+points [105]:
+    number = 2.44 
+    value = 312.0433021938382 
+points [106]:
+    number = 2.5700000000000003 
+    value = 299.31969572286283 
+points [107]:
+    number = 2.58 
+    value = 294.1360827487979 
+points [108]:
+    number = 2.59 
+    value = 282.576023827282 
+points [109]:
+    number = 2.6 
+    value = 272.1393612263777 
+points [110]:
+    number = 2.61 
+    value = 262.98852696052745 
+points [111]:
+    number = 2.62 
+    value = 257.21542558382356 
+points [112]:
+    number = 2.63 
+    value = 251.96776288425247 
+points [113]:
+    number = 2.64 
+    value = 247.6290688254903 
+points [114]:
+    number = 2.65 
+    value = 243.2540097438939 
+points [115]:
+    number = 2.66 
+    value = 237.9567238792302 
+points [116]:
+    number = 2.67 
+    value = 233.66848278385197 
+points [117]:
+    number = 2.68 
+    value = 228.4792164693613 
+points [118]:
+    number = 2.69 
+    value = 226.67084173872522 
+points [119]:
+    number = 2.7 
+    value = 223.93796153289875 
+points [120]:
+    number = 2.71 
+    value = 220.67429899183645 
+points [121]:
+    number = 2.72 
+    value = 219.02209954896566 
+points [122]:
+    number = 2.73 
+    value = 218.19300807272916 
+points [123]:
+    number = 2.74 
+    value = 216.68693342704466 
+points [124]:
+    number = 2.75 
+    value = 215.94627990923152 
+points [125]:
+    number = 2.7600000000000002 
+    value = 216.91557956069062 
+points [126]:
+    number = 2.77 
+    value = 219.35222181058785 
+points [127]:
+    number = 2.7800000000000002 
+    value = 221.2745741624864 
+points [128]:
+    number = 2.79 
+    value = 228.63205152733872 
+points [129]:
+    number = 2.8000000000000003 
+    value = 236.22112036307055 
+points [130]:
+    number = 2.81 
+    value = 237.66655302159788 
+points [131]:
+    number = 2.8200000000000003 
+    value = 241.5779737833143 
+points [132]:
+    number = 2.83 
+    value = 235.19038709184855 

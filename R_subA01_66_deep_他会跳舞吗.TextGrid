@@ -1,0 +1,338 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.25795918367347 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "TEXT" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2370284668133624 
+            text = "sil" 
+        intervals [2]:
+            xmin = 1.2370284668133624 
+            xmax = 3.91981759983567 
+            text = "他 可能 会 跳舞 吧 但是 重在 参与" 
+        intervals [3]:
+            xmin = 3.91981759983567 
+            xmax = 4.2579375 
+            text = "sil" 
+        intervals [4]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WORD" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2370284668133624 
+            text = "sil" 
+        intervals [2]:
+            xmin = 1.2370284668133624 
+            xmax = 1.4948549549219998 
+            text = "他" 
+        intervals [3]:
+            xmin = 1.4948549549219998 
+            xmax = 1.855 
+            text = "可能" 
+        intervals [4]:
+            xmin = 1.855 
+            xmax = 2.075 
+            text = "会" 
+        intervals [5]:
+            xmin = 2.075 
+            xmax = 2.3850000000000002 
+            text = "跳舞" 
+        intervals [6]:
+            xmin = 2.3850000000000002 
+            xmax = 2.6097803089052967 
+            text = "吧" 
+        intervals [7]:
+            xmin = 2.6097803089052967 
+            xmax = 3.041813883573824 
+            text = "但是" 
+        intervals [8]:
+            xmin = 3.041813883573824 
+            xmax = 3.435 
+            text = "重在" 
+        intervals [9]:
+            xmin = 3.435 
+            xmax = 3.91981759983567 
+            text = "参与" 
+        intervals [10]:
+            xmin = 3.91981759983567 
+            xmax = 4.2579375 
+            text = "sil" 
+        intervals [11]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "SYLLABLE" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 16 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2370284668133624 
+            text = "sil" 
+        intervals [2]:
+            xmin = 1.2370284668133624 
+            xmax = 1.4948549549219998 
+            text = "ta1" 
+        intervals [3]:
+            xmin = 1.4948549549219998 
+            xmax = 1.7149999999999999 
+            text = "ke3" 
+        intervals [4]:
+            xmin = 1.7149999999999999 
+            xmax = 1.855 
+            text = "neng2" 
+        intervals [5]:
+            xmin = 1.855 
+            xmax = 2.075 
+            text = "hui4" 
+        intervals [6]:
+            xmin = 2.075 
+            xmax = 2.2350000000000003 
+            text = "tiao4" 
+        intervals [7]:
+            xmin = 2.2350000000000003 
+            xmax = 2.3850000000000002 
+            text = "wu3" 
+        intervals [8]:
+            xmin = 2.3850000000000002 
+            xmax = 2.6097803089052967 
+            text = "ba0" 
+        intervals [9]:
+            xmin = 2.6097803089052967 
+            xmax = 2.8571543718203407 
+            text = "dan4" 
+        intervals [10]:
+            xmin = 2.8571543718203407 
+            xmax = 3.041813883573824 
+            text = "shi4" 
+        intervals [11]:
+            xmin = 3.041813883573824 
+            xmax = 3.2550000000000003 
+            text = "zhong4" 
+        intervals [12]:
+            xmin = 3.2550000000000003 
+            xmax = 3.435 
+            text = "zai4" 
+        intervals [13]:
+            xmin = 3.435 
+            xmax = 3.6750000000000003 
+            text = "can1" 
+        intervals [14]:
+            xmin = 3.6750000000000003 
+            xmax = 3.91981759983567 
+            text = "yu4" 
+        intervals [15]:
+            xmin = 3.91981759983567 
+            xmax = 4.2579375 
+            text = "sil" 
+        intervals [16]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "PHONE" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 27 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2370284668133624 
+            text = "sil" 
+        intervals [2]:
+            xmin = 1.2370284668133624 
+            xmax = 1.3136795848997143 
+            text = "t" 
+        intervals [3]:
+            xmin = 1.3136795848997143 
+            xmax = 1.4948549549219998 
+            text = "a1" 
+        intervals [4]:
+            xmin = 1.4948549549219998 
+            xmax = 1.6202840572451207 
+            text = "k" 
+        intervals [5]:
+            xmin = 1.6202840572451207 
+            xmax = 1.7149999999999999 
+            text = "e3" 
+        intervals [6]:
+            xmin = 1.7149999999999999 
+            xmax = 1.765 
+            text = "n" 
+        intervals [7]:
+            xmin = 1.765 
+            xmax = 1.855 
+            text = "eng2" 
+        intervals [8]:
+            xmin = 1.855 
+            xmax = 1.9443092382465164 
+            text = "h" 
+        intervals [9]:
+            xmin = 1.9443092382465164 
+            xmax = 2.075 
+            text = "ui4" 
+        intervals [10]:
+            xmin = 2.075 
+            xmax = 2.1350000000000002 
+            text = "t" 
+        intervals [11]:
+            xmin = 2.1350000000000002 
+            xmax = 2.2350000000000003 
+            text = "iao4" 
+        intervals [12]:
+            xmin = 2.2350000000000003 
+            xmax = 2.3850000000000002 
+            text = "u3" 
+        intervals [13]:
+            xmin = 2.3850000000000002 
+            xmax = 2.446025647539 
+            text = "b" 
+        intervals [14]:
+            xmin = 2.446025647539 
+            xmax = 2.6097803089052967 
+            text = "a0" 
+        intervals [15]:
+            xmin = 2.6097803089052967 
+            xmax = 2.675979001798055 
+            text = "d" 
+        intervals [16]:
+            xmin = 2.675979001798055 
+            xmax = 2.8571543718203407 
+            text = "an4" 
+        intervals [17]:
+            xmin = 2.8571543718203407 
+            xmax = 2.9650000000000003 
+            text = "sh" 
+        intervals [18]:
+            xmin = 2.9650000000000003 
+            xmax = 3.041813883573824 
+            text = "i4" 
+        intervals [19]:
+            xmin = 3.041813883573824 
+            xmax = 3.118465001660176 
+            text = "zh" 
+        intervals [20]:
+            xmin = 3.118465001660176 
+            xmax = 3.2550000000000003 
+            text = "ong4" 
+        intervals [21]:
+            xmin = 3.2550000000000003 
+            xmax = 3.3031245134136595 
+            text = "z" 
+        intervals [22]:
+            xmin = 3.3031245134136595 
+            xmax = 3.435 
+            text = "ai4" 
+        intervals [23]:
+            xmin = 3.435 
+            xmax = 3.567919284984692 
+            text = "c" 
+        intervals [24]:
+            xmin = 3.567919284984692 
+            xmax = 3.6750000000000003 
+            text = "an1" 
+        intervals [25]:
+            xmin = 3.6750000000000003 
+            xmax = 3.91981759983567 
+            text = "v4" 
+        intervals [26]:
+            xmin = 3.91981759983567 
+            xmax = 4.2579375 
+            text = "sil" 
+        intervals [27]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2370284668133624 
+            text = "" 
+        intervals [2]:
+            xmin = 1.2370284668133624 
+            xmax = 2.6097803089052967 
+            text = "1" 
+        intervals [3]:
+            xmin = 2.6097803089052967 
+            xmax = 3.91981759983567 
+            text = "2" 
+        intervals [4]:
+            xmin = 3.91981759983567 
+            xmax = 4.2579375 
+            text = "" 
+        intervals [5]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "intention" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 5 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.2370284668133624 
+            text = "" 
+        intervals [2]:
+            xmin = 1.2370284668133624 
+            xmax = 2.6097803089052967 
+            text = "A-X" 
+        intervals [3]:
+            xmin = 2.6097803089052967 
+            xmax = 3.91981759983567 
+            text = "V" 
+        intervals [4]:
+            xmin = 3.91981759983567 
+            xmax = 4.2579375 
+            text = "" 
+        intervals [5]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "special" 
+        xmin = 0 
+        xmax = 4.25795918367347 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.3850000000000002 
+            text = "" 
+        intervals [2]:
+            xmin = 2.3850000000000002 
+            xmax = 2.6097803089052967 
+            text = "m" 
+        intervals [3]:
+            xmin = 2.6097803089052967 
+            xmax = 4.2579375 
+            text = "" 
+        intervals [4]:
+            xmin = 4.2579375 
+            xmax = 4.25795918367347 
+            text = "" 

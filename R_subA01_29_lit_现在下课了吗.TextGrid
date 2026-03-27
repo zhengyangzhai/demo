@@ -1,0 +1,366 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 4.022879818594104 
+tiers? <exists> 
+size = 7 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "TEXT" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.855 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.855 
+            xmax = 3.729190243751241 
+            text = "当然 没有 下课 不要 说话 好好 听课" 
+        intervals [3]:
+            xmin = 3.729190243751241 
+            xmax = 4.022875 
+            text = "sil" 
+        intervals [4]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "WORD" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.855 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.855 
+            xmax = 1.2070804688107883 
+            text = "当然" 
+        intervals [3]:
+            xmin = 1.2070804688107883 
+            xmax = 1.568903177000118 
+            text = "没有" 
+        intervals [4]:
+            xmin = 1.568903177000118 
+            xmax = 2.145 
+            text = "下课" 
+        intervals [5]:
+            xmin = 2.145 
+            xmax = 2.3404981188928313 
+            text = "不要" 
+        intervals [6]:
+            xmin = 2.3404981188928313 
+            xmax = 2.765 
+            text = "说话" 
+        intervals [7]:
+            xmin = 2.765 
+            xmax = 3.019664737936068 
+            text = "sp" 
+        intervals [8]:
+            xmin = 3.019664737936068 
+            xmax = 3.295002993924046 
+            text = "好好" 
+        intervals [9]:
+            xmin = 3.295002993924046 
+            xmax = 3.729190243751241 
+            text = "听课" 
+        intervals [10]:
+            xmin = 3.729190243751241 
+            xmax = 4.022875 
+            text = "sil" 
+        intervals [11]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "SYLLABLE" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 18 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.855 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.855 
+            xmax = 1.0464664861511346 
+            text = "dang1" 
+        intervals [3]:
+            xmin = 1.0464664861511346 
+            xmax = 1.2070804688107883 
+            text = "ran2" 
+        intervals [4]:
+            xmin = 1.2070804688107883 
+            xmax = 1.385 
+            text = "mei2" 
+        intervals [5]:
+            xmin = 1.385 
+            xmax = 1.568903177000118 
+            text = "iou3" 
+        intervals [6]:
+            xmin = 1.568903177000118 
+            xmax = 1.819531589501995 
+            text = "xia4" 
+        intervals [7]:
+            xmin = 1.819531589501995 
+            xmax = 2.145 
+            text = "ke4" 
+        intervals [8]:
+            xmin = 2.145 
+            xmax = 2.225 
+            text = "bu2" 
+        intervals [9]:
+            xmin = 2.225 
+            xmax = 2.3404981188928313 
+            text = "yao4" 
+        intervals [10]:
+            xmin = 2.3404981188928313 
+            xmax = 2.595 
+            text = "shuo1" 
+        intervals [11]:
+            xmin = 2.595 
+            xmax = 2.765 
+            text = "hua4" 
+        intervals [12]:
+            xmin = 2.765 
+            xmax = 3.019664737936068 
+            text = "sp" 
+        intervals [13]:
+            xmin = 3.019664737936068 
+            xmax = 3.1661588100322358 
+            text = "hao3" 
+        intervals [14]:
+            xmin = 3.1661588100322358 
+            xmax = 3.295002993924046 
+            text = "hao3" 
+        intervals [15]:
+            xmin = 3.295002993924046 
+            xmax = 3.531511495862437 
+            text = "ting1" 
+        intervals [16]:
+            xmin = 3.531511495862437 
+            xmax = 3.729190243751241 
+            text = "ke4" 
+        intervals [17]:
+            xmin = 3.729190243751241 
+            xmax = 4.022875 
+            text = "sil" 
+        intervals [18]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "PHONE" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 30 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.855 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.855 
+            xmax = 0.8876174923119167 
+            text = "d" 
+        intervals [3]:
+            xmin = 0.8876174923119167 
+            xmax = 1.0464664861511346 
+            text = "ang1" 
+        intervals [4]:
+            xmin = 1.0464664861511346 
+            xmax = 1.135 
+            text = "r" 
+        intervals [5]:
+            xmin = 1.135 
+            xmax = 1.2070804688107883 
+            text = "an2" 
+        intervals [6]:
+            xmin = 1.2070804688107883 
+            xmax = 1.311214809216498 
+            text = "m" 
+        intervals [7]:
+            xmin = 1.311214809216498 
+            xmax = 1.385 
+            text = "ei2" 
+        intervals [8]:
+            xmin = 1.385 
+            xmax = 1.568903177000118 
+            text = "iou3" 
+        intervals [9]:
+            xmin = 1.568903177000118 
+            xmax = 1.6649999999999998 
+            text = "x" 
+        intervals [10]:
+            xmin = 1.6649999999999998 
+            xmax = 1.819531589501995 
+            text = "ia4" 
+        intervals [11]:
+            xmin = 1.819531589501995 
+            xmax = 1.961025522499144 
+            text = "k" 
+        intervals [12]:
+            xmin = 1.961025522499144 
+            xmax = 2.145 
+            text = "e4" 
+        intervals [13]:
+            xmin = 2.145 
+            xmax = 2.185 
+            text = "b" 
+        intervals [14]:
+            xmin = 2.185 
+            xmax = 2.225 
+            text = "u2" 
+        intervals [15]:
+            xmin = 2.225 
+            xmax = 2.3404981188928313 
+            text = "iao4" 
+        intervals [16]:
+            xmin = 2.3404981188928313 
+            xmax = 2.455 
+            text = "sh" 
+        intervals [17]:
+            xmin = 2.455 
+            xmax = 2.595 
+            text = "uo1" 
+        intervals [18]:
+            xmin = 2.595 
+            xmax = 2.651136151289524 
+            text = "h" 
+        intervals [19]:
+            xmin = 2.651136151289524 
+            xmax = 2.765 
+            text = "ua4" 
+        intervals [20]:
+            xmin = 2.765 
+            xmax = 3.019664737936068 
+            text = "sp" 
+        intervals [21]:
+            xmin = 3.019664737936068 
+            xmax = 3.1079141789578557 
+            text = "h" 
+        intervals [22]:
+            xmin = 3.1079141789578557 
+            xmax = 3.1661588100322358 
+            text = "ao3" 
+        intervals [23]:
+            xmin = 3.1661588100322358 
+            xmax = 3.2102835305431294 
+            text = "h" 
+        intervals [24]:
+            xmin = 3.2102835305431294 
+            xmax = 3.295002993924046 
+            text = "ao3" 
+        intervals [25]:
+            xmin = 3.295002993924046 
+            xmax = 3.395 
+            text = "t" 
+        intervals [26]:
+            xmin = 3.395 
+            xmax = 3.531511495862437 
+            text = "ing1" 
+        intervals [27]:
+            xmin = 3.531511495862437 
+            xmax = 3.603876037500303 
+            text = "k" 
+        intervals [28]:
+            xmin = 3.603876037500303 
+            xmax = 3.729190243751241 
+            text = "e4" 
+        intervals [29]:
+            xmin = 3.729190243751241 
+            xmax = 4.022875 
+            text = "sil" 
+        intervals [30]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "utterance" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.855 
+            text = "" 
+        intervals [2]:
+            xmin = 0.855 
+            xmax = 2.145 
+            text = "1" 
+        intervals [3]:
+            xmin = 2.145 
+            xmax = 2.765 
+            text = "2" 
+        intervals [4]:
+            xmin = 2.765 
+            xmax = 3.019664737936068 
+            text = "" 
+        intervals [5]:
+            xmin = 3.019664737936068 
+            xmax = 3.729190243751241 
+            text = "3" 
+        intervals [6]:
+            xmin = 3.729190243751241 
+            xmax = 4.022875 
+            text = "" 
+        intervals [7]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "intention" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.855 
+            text = "" 
+        intervals [2]:
+            xmin = 0.855 
+            xmax = 2.145 
+            text = "F" 
+        intervals [3]:
+            xmin = 2.145 
+            xmax = 2.765 
+            text = "W" 
+        intervals [4]:
+            xmin = 2.765 
+            xmax = 3.019664737936068 
+            text = "" 
+        intervals [5]:
+            xmin = 3.019664737936068 
+            xmax = 3.729190243751241 
+            text = "W" 
+        intervals [6]:
+            xmin = 3.729190243751241 
+            xmax = 4.022875 
+            text = "" 
+        intervals [7]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 
+    item [7]:
+        class = "IntervalTier" 
+        name = "special" 
+        xmin = 0 
+        xmax = 4.022879818594104 
+        intervals: size = 2 
+        intervals [1]:
+            xmin = 0 
+            xmax = 4.022875 
+            text = "" 
+        intervals [2]:
+            xmin = 4.022875 
+            xmax = 4.022879818594104 
+            text = "" 

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Audio Demo &mdash; Anonymous Submission</title>
+<style>
+  :root {
+    --bg: #f8f9fa;
+    --card: #ffffff;
+    --accent: #4361ee;
+    --accent-light: #e8ecff;
+    --text: #212529;
+    --text-muted: #6c757d;
+    --border: #dee2e6;
+    --radius: 10px;
+    --shadow: 0 2px 12px rgba(0,0,0,.06);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 0 0 80px;
+  }
+
+  /* ── anonymous banner ── */
+  .anon-banner {
+    background: #fff3cd;
+    border-bottom: 2px solid #ffc107;
+    padding: 16px 24px;
+    text-align: center;
+    font-size: .95rem;
+    color: #664d03;
+    font-weight: 500;
+    line-height: 1.6;
+  }
+  .anon-banner strong { color: #533f03; font-size: 1rem; }
+
+  /* ── header ── */
+  header {
+    background: linear-gradient(135deg, #4361ee 0%, #3a0ca3 100%);
+    color: #fff;
+    padding: 52px 24px 44px;
+    text-align: center;
+  }
+  header h1 { font-size: 1.6rem; font-weight: 700; letter-spacing: -.3px; }
+  header p.subtitle {
+    margin-top: 14px;
+    font-size: 1rem;
+    opacity: .88;
+    max-width: 700px;
+    margin-left: auto; margin-right: auto;
+  }
+
+  .container { max-width: 1060px; margin: 0 auto; padding: 0 20px; }
+
+  section { margin-top: 44px; }
+  section > h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: var(--accent);
+  }
+  section > p.desc {
+    color: var(--text-muted);
+    font-size: .93rem;
+    margin-bottom: 22px;
+    max-width: 820px;
+  }
+
+  /* ── table ── */
+  .table-card {
+    background: var(--card);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    overflow-x: auto;
+    border: 1px solid var(--border);
+  }
+  table { width: 100%; border-collapse: collapse; min-width: 640px; }
+  thead th {
+    background: var(--accent-light);
+    font-weight: 600;
+    font-size: .85rem;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+    padding: 13px 15px;
+    text-align: left;
+    white-space: nowrap;
+  }
+  tbody td {
+    padding: 11px 15px;
+    border-top: 1px solid var(--border);
+    vertical-align: middle;
+    font-size: .92rem;
+  }
+  tbody tr:hover { background: #f4f6ff; }
+  .pair-divider td { border-top: 3px solid var(--accent-light); }
+
+  /* ── tags ── */
+  .label-tag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-size: .82rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .tag-lit  { background: #d4edda; color: #155724; }
+  .tag-deep { background: #fff3cd; color: #856404; }
+  .tag-sr   { background: #f0e6ff; color: #4a148c; }
+
+  audio { width: 250px; height: 36px; vertical-align: middle; }
+  .text-zh { font-size: .95rem; }
+
+  /* ── annotation blocks ── */
+  .ann-block {
+    background: #f4f6ff;
+    border-left: 4px solid var(--accent);
+    padding: 10px 14px;
+    border-radius: 0 6px 6px 0;
+    margin: 6px 0;
+    font-size: .84rem;
+    color: var(--text-muted);
+    line-height: 1.55;
+  }
+  .ann-block strong { color: var(--text); }
+
+  /* ── footer ── */
+  footer {
+    margin-top: 56px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: .84rem;
+  }
+
+  @media (max-width: 640px) {
+    header { padding: 32px 16px 28px; }
+    header h1 { font-size: 1.25rem; }
+    audio { width: 180px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ════════════════ ANONYMOUS BANNER ════════════════ -->
+<div class="anon-banner">
+  <strong>Anonymous Submission Notice:</strong>
+  This demo page is provided for <strong>double-blind review purposes only</strong>.
+  No author or institutional information is included.
+  Please do not attempt to identify the authors.
+</div>
+
+<!-- ════════════════ HEADER ════════════════ -->
+<header>
+  <h1>Audio &amp; Annotation Demo</h1>
+  <p class="subtitle">
+    Selected Q-R pairs from the PQSR benchmark, illustrating how
+    cross-modal consistency and discrepancy shape pragmatic intent
+    in Chinese spoken language.
+  </p>
+</header>
+
+<div class="container">
+
+<!-- ════════════════ TASK OVERVIEW ════════════════ -->
+<section>
+  <h2>Task Overview</h2>
+  <p class="desc">
+    The PQSR benchmark covers two complementary tasks that share speech-text inputs:
+    <strong>PQP</strong> (Pragmatic Question Pair) &mdash; binary literal vs.&nbsp;deep classification on the question utterance;
+    <strong>SR</strong> (Speech Act Recognition) &mdash; 14-class fine-grained intention recognition on the response utterance.
+    The samples below are drawn from the test set and are grouped as Q-R conversational pairs.
+  </p>
+</section>
+
+<!-- ════════════════ AUDIO DEMO ════════════════ -->
+<section>
+  <h2>Audio Samples</h2>
+  <p class="desc">
+    Pair&nbsp;1 and Pair&nbsp;3 share <em>identical question text</em>
+    (<strong>"现在下课了吗？"</strong> &mdash; "Is class over?") but differ in prosody and pragmatic intent.
+    Listen and compare: in Pair&nbsp;1 the speaker uses a calm, neutral rising tone typical of
+    a genuine information-seeking question (literal); in Pair&nbsp;3 the speaker uses a sharper,
+    impatient falling contour signaling a rhetorical reprimand (deep) &mdash; the speaker already
+    knows the answer and is expressing dissatisfaction.
+  </p>
+
+  <div class="table-card">
+    <table>
+      <thead>
+        <tr>
+          <th>Pair</th>
+          <th>Role</th>
+          <th>PQP</th>
+          <th>Text</th>
+          <th>Translation</th>
+          <th>Audio</th>
+          <th>SR Label</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Pair 1: literal (subA) -->
+        <tr>
+          <td rowspan="2"><strong>1</strong></td>
+          <td>Q</td>
+          <td><span class="label-tag tag-lit">Literal</span></td>
+          <td class="text-zh">现在下课了吗？</td>
+          <td>Is class over?</td>
+          <td><audio controls preload="none"><source src="Q_subA001_29_lit_现在下课了吗.wav" type="audio/wav"></audio></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td></td>
+          <td class="text-zh">当然没有下课，不要说话，好好听课</td>
+          <td>Of course not. Stop talking and pay attention.</td>
+          <td><audio controls preload="none"><source src="R_subA01_29_lit_现在下课了吗.wav" type="audio/wav"></audio></td>
+          <td>
+            <span class="label-tag tag-sr">F</span>
+            <span class="label-tag tag-sr">W</span>
+            <span class="label-tag tag-sr">W</span>
+          </td>
+        </tr>
+
+        <!-- Pair 2: deep (subA) -->
+        <tr class="pair-divider">
+          <td rowspan="2"><strong>2</strong></td>
+          <td>Q</td>
+          <td><span class="label-tag tag-deep">Deep</span></td>
+          <td class="text-zh">他会跳舞吗？</td>
+          <td>Can he dance?</td>
+          <td><audio controls preload="none"><source src="Q_subA001_66_deep_他会跳舞吗.wav" type="audio/wav"></audio></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td></td>
+          <td class="text-zh">他可能会跳舞吧，但是重在参与</td>
+          <td>Maybe he can, but what matters is participation.</td>
+          <td><audio controls preload="none"><source src="R_subA01_66_deep_他会跳舞吗.wav" type="audio/wav"></audio></td>
+          <td>
+            <span class="label-tag tag-sr">A</span>
+            <span class="label-tag tag-sr">V</span>
+          </td>
+        </tr>
+
+        <!-- Pair 3: deep (subB) — same question text as Pair 1 -->
+        <tr class="pair-divider">
+          <td rowspan="2"><strong>3</strong></td>
+          <td>Q</td>
+          <td><span class="label-tag tag-deep">Deep</span></td>
+          <td class="text-zh">现在下课了吗？</td>
+          <td>Is class over? <em>(rhetorical)</em></td>
+          <td><audio controls preload="none"><source src="Q_subB001_29_deep_现在下课了吗.wav" type="audio/wav"></audio></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td></td>
+          <td class="text-zh">马上就下课了</td>
+          <td>It&rsquo;ll be over soon.</td>
+          <td><audio controls preload="none"><source src="R_subB01_29_deep_现在下课了吗.wav" type="audio/wav"></audio></td>
+          <td>
+            <span class="label-tag tag-sr">W</span>
+            <span class="label-tag tag-sr">D</span>
+          </td>
+        </tr>
+
+        <!-- Pair 4: deep (subC) -->
+        <tr class="pair-divider">
+          <td rowspan="2"><strong>4</strong></td>
+          <td>Q</td>
+          <td><span class="label-tag tag-deep">Deep</span></td>
+          <td class="text-zh">他跟这件事有关系吗？</td>
+          <td>Does he have anything to do with this?</td>
+          <td><audio controls preload="none"><source src="Q_subC001_28_deep_他跟这件事有关系吗.wav" type="audio/wav"></audio></td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>R</td>
+          <td></td>
+          <td class="text-zh">他跟这件事儿没关系啊</td>
+          <td>He has nothing to do with it.</td>
+          <td><audio controls preload="none"><source src="R_subC01_28_deep_他跟这件事有关系吗.wav" type="audio/wav"></audio></td>
+          <td>
+            <span class="label-tag tag-sr">F</span>
+            <span class="label-tag tag-sr">R</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════════ ANNOTATION ════════════════ -->
+<section>
+  <h2>Annotation Highlights</h2>
+  <p class="desc">
+    Each sample ships with a multi-tier Praat TextGrid and a PitchTier file.
+    A single response utterance may contain multiple prosodic phrases,
+    and each phrase is independently labeled with a speech act from the
+    14-class SR taxonomy (e.g., <strong>F</strong>&nbsp;=&nbsp;Factual,
+    <strong>W</strong>&nbsp;=&nbsp;Wisdom/advice,
+    <strong>A</strong>&nbsp;=&nbsp;Against,
+    <strong>D</strong>&nbsp;=&nbsp;Disagreement,
+    <strong>R</strong>&nbsp;=&nbsp;Resonance/agreement,
+    <strong>V</strong>&nbsp;=&nbsp;Vague).
+    The arrows below indicate temporal order within the response.
+  </p>
+
+  <h3 style="margin-top:18px; font-size:1rem;">Pair 1 &mdash; Literal: "Is class over?"</h3>
+  <div class="ann-block">
+    <strong>Q prosody:</strong> Calm, neutral rising intonation on sentence-final particle "吗" &mdash; genuine question.<br>
+    <strong>R phrases:</strong>
+    "当然没有下课" <em>(Of course not)</em> &rarr;
+    "不要说话" <em>(Stop talking)</em> &rarr;
+    "好好听课" <em>(Pay attention)</em><br>
+    <strong>SR:</strong>
+    <span class="label-tag tag-sr">F</span> Factual &rarr;
+    <span class="label-tag tag-sr">W</span> Wisdom &rarr;
+    <span class="label-tag tag-sr">W</span> Wisdom
+  </div>
+
+  <h3 style="margin-top:18px; font-size:1rem;">Pair 2 &mdash; Deep: "Can he dance?"</h3>
+  <div class="ann-block">
+    <strong>Q prosody:</strong> Skeptical tone with emphasis on "会" (can) &mdash; implies doubt about the person's ability.<br>
+    <strong>R phrases:</strong>
+    "他可能会跳舞吧" <em>(Maybe he can)</em> &rarr;
+    "但是重在参与" <em>(But what matters is participation)</em><br>
+    <strong>SR:</strong>
+    <span class="label-tag tag-sr">A</span> Against &rarr;
+    <span class="label-tag tag-sr">V</span> Vague
+  </div>
+
+  <h3 style="margin-top:18px; font-size:1rem;">Pair 3 &mdash; Deep: "Is class over?" <em>(same text as Pair 1, different prosody)</em></h3>
+  <div class="ann-block">
+    <strong>Q prosody:</strong> Sharper, impatient falling contour &mdash; the speaker knows the answer is "no" and is expressing dissatisfaction. Compare with the calm rising tone of Pair&nbsp;1.<br>
+    <strong>R phrases:</strong>
+    "马上就下课了" <em>(It'll be over soon)</em><br>
+    <strong>SR:</strong>
+    <span class="label-tag tag-sr">W</span> Wisdom +
+    <span class="label-tag tag-sr">D</span> Disagreement
+  </div>
+
+  <h3 style="margin-top:18px; font-size:1rem;">Pair 4 &mdash; Deep: "Does he have anything to do with this?"</h3>
+  <div class="ann-block">
+    <strong>Q prosody:</strong> Rhetorical tone implying the answer is obviously "no" &mdash; the speaker uses a dismissive falling contour.<br>
+    <strong>R phrases:</strong>
+    "他跟这件事儿没关系啊" <em>(He has nothing to do with it)</em><br>
+    <strong>SR:</strong>
+    <span class="label-tag tag-sr">F</span> Factual +
+    <span class="label-tag tag-sr">R</span> Resonance
+  </div>
+</section>
+
+<!-- ════════════════ DATA NOTE ════════════════ -->
+<section>
+  <h2>Data Note</h2>
+  <p class="desc">
+    This repository contains only a small selection of representative samples
+    for demonstration purposes. For access to the full PQSR benchmark dataset,
+    please contact the authors after the review process.
+  </p>
+</section>
+
+</div>
+
+<footer>
+  <p><strong>Anonymous Submission</strong></p>
+  <p style="margin-top:4px;">This demo is for double-blind review purposes only. No identifying information is disclosed.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.328 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "character" 
+        xmin = 0 
+        xmax = 2.328 
+        intervals: size = 1 
+        intervals [1]:
+            xmin = 0 
+            xmax = 2.328 
+            text = "他会跳舞吗？" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "I-F" 
+        xmin = 0 
+        xmax = 2.328 
+        intervals: size = 11 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.633129763130793 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.633129763130793 
+            xmax = 0.756 
+            text = "t" 
+        intervals [3]:
+            xmin = 0.756 
+            xmax = 0.8160000000000001 
+            text = "a1" 
+        intervals [4]:
+            xmin = 0.8160000000000001 
+            xmax = 0.9480000000000001 
+            text = "h" 
+        intervals [5]:
+            xmin = 0.9480000000000001 
+            xmax = 1.0675890834191555 
+            text = "uei4" 
+        intervals [6]:
+            xmin = 1.0675890834191555 
+            xmax = 1.2 
+            text = "t" 
+        intervals [7]:
+            xmin = 1.2 
+            xmax = 1.26 
+            text = "iao4" 
+        intervals [8]:
+            xmin = 1.26 
+            xmax = 1.536 
+            text = "u3" 
+        intervals [9]:
+            xmin = 1.536 
+            xmax = 1.6560000000000001 
+            text = "m" 
+        intervals [10]:
+            xmin = 1.6560000000000001 
+            xmax = 1.81202780638517 
+            text = "a5" 
+        intervals [11]:
+            xmin = 1.81202780638517 
+            xmax = 2.328 
+            text = "sil" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 0 
+        xmax = 2.328 
+        intervals: size = 7 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.633129763130793 
+            text = "sil" 
+        intervals [2]:
+            xmin = 0.633129763130793 
+            xmax = 0.8160000000000001 
+            text = "ta1" 
+        intervals [3]:
+            xmin = 0.8160000000000001 
+            xmax = 1.0675890834191555 
+            text = "hui4" 
+        intervals [4]:
+            xmin = 1.0675890834191555 
+            xmax = 1.26 
+            text = "tiao4" 
+        intervals [5]:
+            xmin = 1.26 
+            xmax = 1.536 
+            text = "wu3" 
+        intervals [6]:
+            xmin = 1.536 
+            xmax = 1.81202780638517 
+            text = "ma5" 
+        intervals [7]:
+            xmin = 1.81202780638517 
+            xmax = 2.328 
+            text = "sil" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "destress" 
+        xmin = 0 
+        xmax = 2.328 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.0675890834191555 
+            text = "" 
+        intervals [2]:
+            xmin = 1.0675890834191555 
+            xmax = 1.536 
+            text = "*" 
+        intervals [3]:
+            xmin = 1.536 
+            xmax = 2.328 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "stress" 
+        xmin = 0 
+        xmax = 2.328 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.633129763130793 
+            text = "" 
+        intervals [2]:
+            xmin = 0.633129763130793 
+            xmax = 0.8160000000000001 
+            text = "0" 
+        intervals [3]:
+            xmin = 0.8160000000000001 
+            xmax = 1.0675890834191555 
+            text = "2" 
+        intervals [4]:
+            xmin = 1.0675890834191555 
+            xmax = 1.536 
+            text = "1" 
+        intervals [5]:
+            xmin = 1.536 
+            xmax = 1.81202780638517 
+            text = "0" 
+        intervals [6]:
+            xmin = 1.81202780638517 
+            xmax = 2.328 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "boundary" 
+        xmin = 0 
+        xmax = 2.328 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 1.536 
+            text = "" 
+        intervals [2]:
+            xmin = 1.536 
+            xmax = 1.81202780638517 
+            text = "p" 
+        intervals [3]:
+            xmin = 1.81202780638517 
+            xmax = 2.328 
+            text = "" 
