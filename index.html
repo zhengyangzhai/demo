@@ -125,7 +125,7 @@
     color: var(--text-muted);
     font-size: .93rem;
     margin-bottom: 22px;
-    max-width: 820px;
+    text-align: justify;
   }
 
   .abstract-card {
@@ -362,27 +362,39 @@
 <section id="architecture" class="fade">
   <h2>Model Architecture</h2>
   <p class="desc">
-    CDD-Net is designed for two complementary tasks:
-    <strong>Task A</strong> (14-class fine-grained intention recognition) and
-    <strong>Task B</strong> (binary literal vs. deep pragmatic discrimination).
-    Both share the TLDL backbone for consistency-discrepancy decoupling but employ task-specific fusion heads.
+    CDD-Net frames multimodal pragmatic understanding as a structured consistency-discrepancy modeling problem.
+    Given a speech-text input pair, the model proceeds through four stages:
+    (1)&nbsp;encoding textual and acoustic inputs via Chinese BERT and Wav2Vec2;
+    (2)&nbsp;localizing cross-modal conflict at token-frame granularity through <strong>TLDL</strong>;
+    (3)&nbsp;organizing evidence into separate consistency and discrepancy spaces via <strong>DSCL</strong>; and
+    (4)&nbsp;combining structured decoupling with a direct raw-fusion fallback via <strong>RFR</strong>.
+    The architecture is applied to two complementary tasks that share the same TLDL backbone but employ task-specific fusion heads.
   </p>
 
   <div class="fig-card">
     <img src="arch_sr.png" alt="CDD-Net architecture for Task A (14-class intention recognition)">
     <div class="fig-caption">
-      Figure 1. CDD-Net architecture for <strong>Task A</strong> (14-class intention recognition).
-      The model uses Token-Level Discrepancy Localization (TLDL) to decouple consistency and discrepancy streams,
-      followed by Gate Fusion and context-Attention for fine-grained intention classification.
+      <strong>Figure 1.</strong> CDD-Net architecture for <strong>Task A</strong> (14-class fine-grained intention recognition).
+      Multimodal inputs (text via BERT, audio via Wav2Vec2, plus explicit F0, SpeechCraft labels, and frame-level acoustics)
+      are encoded and fed into Token-Level Discrepancy Localization (TLDL), which identifies where text and speech conflict
+      at the token–frame level. The resulting consistency and discrepancy streams are organized by Dual-Space Contrastive
+      Learning (DSCL), refined by Discrepancy-Guided Contrastive Pairing (DGCP) and Consistency-Discrepancy Reconstruction
+      (CDR), and finally combined with the Raw Fusion Residual (RFR) path through a learnable gate for robust 14-class prediction.
+      Tone-Aware Conflict Masking (TACM) further sharpens discrepancy localization using PitchTier-derived F0 variation,
+      a refinement tailored to Chinese prosodic patterns.
     </div>
   </div>
 
   <div class="fig-card">
     <img src="arch_pqp_v3.jpg" alt="CDD-Net architecture for Task B (binary literal vs. deep classification)">
     <div class="fig-caption">
-      Figure 2. CDD-Net architecture for <strong>Task B</strong> (binary literal vs. deep classification).
-      The decoupled consistency and discrepancy representations are combined via an Adaptive Combiner
-      for shallow/deep pragmatic intent discrimination.
+      <strong>Figure 2.</strong> CDD-Net architecture for <strong>Task B</strong> (binary literal vs. deep pragmatic discrimination).
+      This variant shares the same TLDL backbone as Task A but removes the SR-specific DGCP, CDR, and RFR components.
+      Instead, the decoupled consistency and discrepancy representations are combined via an Adaptive Combiner,
+      whose gating weight is guided by macro-level discrepancy vectors. The simplified design reflects that
+      Task B (binary shallow/deep classification) relies more on utterance-level speaking style rather than
+      the finely localized token-frame conflicts targeted by the full pipeline.
+      This figure is supplementary to the demo; the paper focuses on the Task A architecture (Figure&nbsp;1 above).
     </div>
   </div>
 </section>
@@ -548,14 +560,47 @@
     Task A uses a 14-class taxonomy organized into five meta-categories.
     Each prosodic phrase in a response utterance is independently labeled with one of these intent labels.
     The labels shown in the audio samples above (e.g., F, W, A, V, D, R) correspond to this taxonomy.
+    Intent labels follow a shared guideline centered on the responder's primary communicative focus,
+    including factual/informational content, attitude, emotion, commitment, and discourse extension.
   </p>
 
-  <div class="fig-card">
-    <img src="sr_taxonomy.png" alt="Response Intention Annotation System — 14-class taxonomy">
-    <div class="fig-caption">
-      Table: The 14-class Response Intention Annotation System, covering five meta-categories:
-      Literal/Factual, Attitude, Emotion, Commitment, and Extension.
-    </div>
+  <div class="table-card">
+    <table style="min-width:540px;">
+      <thead>
+        <tr>
+          <th>Meta-Category</th>
+          <th>Labels</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Literal / Factual</strong></td>
+          <td><span class="label-tag tag-sr">F</span> <span class="label-tag tag-sr">A</span> <span class="label-tag tag-sr">T</span> <span class="label-tag tag-sr">W</span></td>
+          <td>Factual confirmation, contradiction, conditional answer, or knowledge/suggestion-based response</td>
+        </tr>
+        <tr>
+          <td><strong>Attitude</strong></td>
+          <td><span class="label-tag tag-sr">S</span> <span class="label-tag tag-sr">D</span> <span class="label-tag tag-sr">R</span></td>
+          <td>Submission/apology, disagreement, or response to dissatisfaction involving a third party</td>
+        </tr>
+        <tr>
+          <td><strong>Emotion</strong></td>
+          <td><span class="label-tag tag-sr">E</span> <span class="label-tag tag-sr">V</span></td>
+          <td>Emotional support or perfunctory response</td>
+        </tr>
+        <tr>
+          <td><strong>Commitment</strong></td>
+          <td><span class="label-tag tag-sr">I</span> <span class="label-tag tag-sr">H</span></td>
+          <td>Promise or expression of anticipation/desire</td>
+        </tr>
+        <tr>
+          <td><strong>Extension</strong></td>
+          <td><span class="label-tag tag-sr">C</span> <span class="label-tag tag-sr">K</span> <span class="label-tag tag-sr">M</span></td>
+          <td>Topic shift, continuation of the original topic, or counter-question</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 </section>
 
